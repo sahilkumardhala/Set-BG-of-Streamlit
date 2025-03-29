@@ -40,6 +40,6 @@ st.markdown(CSS, unsafe_allow_html=True)
 
 image_path = 'bg.jpg'
 image_encoded = img_to_bytes(image_path)
-st.markdown("""<img src='data:image/png;base64{image_encoded}""", unsafe_allow_html=True)
+st.markdown(f"""<img src='data:image/png;base64{image_encoded}""", unsafe_allow_html=True)
 
 
